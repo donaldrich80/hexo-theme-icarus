@@ -67,6 +67,7 @@ night()
         &:hover
             background-color: rgba(40,44,52,0.8)
     .footer
+        background-color: dark-primary-color
         backdrop-filter: none
         -webkit-backdrop-filter: none
         &:before
@@ -264,3 +265,9 @@ body.night
 @media (prefers-color-scheme: dark)
     body:not(.light)
         night()
+
+@media screen and (max-width: 1087px) {
+  .navbar-menu {
+    background-color: dark-primary-color
+  }
+}
